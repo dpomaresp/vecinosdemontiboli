@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
 </head>
 <body>
@@ -57,6 +58,12 @@
                 }
             ?>
             </div>
+            <div id="gallery" class="popup-gallery">
+                <a href="/images/sliders/slider1.jpg"><img src="/images/sliders/slider1.jpg" alt="Imagen 1" /></a>
+                <a href="/images/sliders/slider2.jpg"><img src="/images/sliders/slider2.jpg" alt="Imagen 2" /></a>
+                <a href="/images/sliders/slider3.jpg"><img src="/images/sliders/slider3.jpg" alt="Imagen 3" /></a>
+                <a href="/images/sliders/slider4.jpg"><img src="/images/sliders/slider4.jpg" alt="Imagen 4" /></a>
+            </div>
         <div class="clear"></div>
     </div>       
 <!--==============================footer=================================-->
@@ -78,6 +85,27 @@
     <script src="/js/cufon-replace.js"></script>
     <script src="/js/Kozuka_L_300.font.js"></script>
     <script src="/js/Kozuka_B_700.font.js"></script>
+    <script src="/js/jquery.magnific-popup.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.popup-gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Cargando imagen #%curr%...',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">No se pudo cargar la imagen #%curr%</a>.',
+                    titleSrc: function(item) {
+                        return '<small>by Author</small>';
+                    }
+                }
+            });
+        });
+    </script>
     <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">

@@ -28,6 +28,19 @@ a:hover {text-decoration:none;}
 
 #img_header { position:relative; width:1024px; height:271; margin:0 auto; padding:0px 0px 0 0px; z-index:2; background:#000; overflow:hidden;}
 
+#gallery {
+    height: auto;
+    width: inherit;
+    float: left;
+    text-align: center;
+}   
+
+#gallery img {
+    width: 33%;
+    display: inline;
+    margin: 5px;
+}
+
 .button {background:#ef6f53; color:#000; font-size:14px; line-height:24px; padding:4px 12px 10px 12px; display:inline-block;}
 
 .button:hover {background:#1A1A1A; color:#fff; }
