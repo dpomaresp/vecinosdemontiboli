@@ -52,7 +52,7 @@
                 <div class="fleft">
                     <p>Avda. Europa 124-A, Villajoyosa (03570)</p>
                     <p>+34 607 370 030</p>
-                    <p><a href="#" class="link">asociacion@vecinosdemontiboli.com</a></p>
+                    <p><a href="mailto:asociacion@vecinosdemontiboli.com" class="link">asociacion@vecinosdemontiboli.com</a></p>
                 </dl>
                 </div>
             </div>
