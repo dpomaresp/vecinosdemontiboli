@@ -15,6 +15,7 @@ class New_model extends CI_Model {
             $query = $this->db->get('News', $offset, $limit);    
         }
         else{
+            $this->db->order_by('new_creation_date', 'desc');
             $query = $this->db->get('News');
         }
         

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Asociación Vecinos Montiboli - Home</title>
+    <title>Asociación Vecinos de Montíboli - Home</title>
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
@@ -14,7 +14,7 @@
   <!--==============================header=================================-->
     <header>
         <h2>
-            Asociacion de Vecinos de Montiboli
+            Asociacion Vecinos de Montiboli
         </h2>
     </header>
      <div id="header">
