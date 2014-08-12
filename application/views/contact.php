@@ -10,15 +10,16 @@
 </head>
 <body>
   <!--==============================header=================================-->
-    <div id="header">
-        <div id="img_header">		
-            <img src="/images/header.png" />
-        </div> 
-         
+    <header>
+        <h2>
+            Asociacion de Vecinos de Montiboli
+        </h2>
+    </header>
+     <div id="header">
         <nav>  
             <ul class="menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="">Noticias</a></li>
+                <li><a >Noticias</a></li>
                 <li class="current"><a href="">Contacto</a></li>
             </ul>
             <div class="clear"></div>

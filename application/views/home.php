@@ -13,14 +13,14 @@
   <!--==============================header=================================-->
     <header>
         <h2>
-            Asociación de Vecinos de Montíboli
+            Asociacion de Vecinos de Montiboli
         </h2>
     </header>
      <div id="header">
         <nav>  
             <ul class="menu">
                 <li class="current"><a href="">Home</a></li>
-                <li><a href="">Noticias</a></li>
+                <li><a >Noticias</a></li>
                 <li><a href="/contact/">Contacto</a></li>
             </ul>
             <div class="clear"></div>
@@ -34,35 +34,29 @@
             <a href="https://drive.google.com/uc?export=download&id=0BwGO8QQgHdpjZlRuVTFmcUxpRXM" class="button fright"> Descargar estatutos </a>
         </div>
         <div class="clear"></div>
-        <?php
-        //     echo '<div class="new-content">';
-        //     echo '<h2 class="p4">Últimas noticias</h2>';
-            
-        //     foreach($news as $new){
-        //         $day = date('d', $new->new_creation_date);
-        //         $month = date('m', $new->new_creation_date);
-        //         $year = date('Y', $new->new_creation_date);
-                
-        //         echo '<div class="wrap">';
-        //         echo '<p class="extra-wrap"><span class="clr-1">'.$new->new_title.'</span><br>';
-        //         echo '<a href="/new/'.$new->new_id.'" class="link">'.$day.' '.$month.' ,'.$year.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
-        //         echo '</div>';
-        //         echo '<br/><br/>';    
-        //     }
-        ?>
-    	<div class="new-content">
+            <div class="new-content">
             <h2 class="p4">Ultimas noticias</h2>
-            <div class="wrap">
-                <p class="extra-wrap"><span class="clr-1">Presentación de la "Asociación Vecinos de Montíboli"</span><br>
-                <a href="#" class="link">1 de Agosto, 2014</a><br>El próximo miércoles día 13 de agosto de 2.014 a las 19:30 horas tendrá lugar en el                         "Hotel Montíboli" de Villajoyosa, la presentación de la "Asociación Vecinos de Montíboli". La Asociación invita a tod@s los vecin@s de Montíboli a asistir a esta asamblea                         , participar en ella y como no, a formar parte de la Asociación. Necesitamos de personas con ganas de trabajar por este                           hermosísimo barrio. Si no puedes asistir pero estas interesad@ en formar parte, anímate y hazte soci@ poniéndote en contacto con                      nosotros en nuestro e-mail o teléfono. </p>
+            <?php
+                $this->lang->load('calendar');
+                
+                foreach($news as $new){
+                    $date = new DateTime($new->new_creation_date);
+
+                    $day = $date->format('d');
+                    $month = $date->format('n');
+                    $array = $this->lang->line('months');
+                    $year = $date->format('Y');
+                    $formated_date = $day.' de '.$array[$month-1].', '.$year;
+
+                    echo '<div class="wrap">';
+                    echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
+                    // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
+                    echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
+                    echo '</div>';
+                    echo '<br/><br/>';    
+                }
+            ?>
             </div>
-            <br/><br/>
-            <div class="wrap">
-                <p class="extra-wrap"><span class="clr-1">Paraje Natural de Montíboli</span><br>
-                <a href="#" class="link">25 de Julio, 2014</a><br> ¿Cómo es posible que con un paisaje tan bonito como Montíboli, todavía no dispongamos quienes vivimos allí de lo más elemental?
-Sin urbanizar el barrio de Montíboli, no disponemos de alcantarillado, ni alumbrado público, ni servicio de recogida de basuras, ni aceras para los peatones... Algo verdaramente vergonzoso por parte del Ayuntamiento de Villajoyosa. </p>
-            </div>
-        </div>
         <div class="clear"></div>
     </div>       
 <!--==============================footer=================================-->

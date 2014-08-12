@@ -1,0 +1,691 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"armario_filter"
+			],
+			[
+				"prend",
+				"prenda"
+			],
+			[
+				"marc",
+				"marca"
+			],
+			[
+				"translate",
+				"translateBrandName"
+			],
+			[
+				"fk_",
+				"fk_brand"
+			],
+			[
+				"getLooksby",
+				"getLooksByFiltersModified"
+			],
+			[
+				"str_looks",
+				"str_looks_final"
+			],
+			[
+				"rel",
+				"rel_looks_styles"
+			],
+			[
+				"str_loo",
+				"str_looks_final"
+			],
+			[
+				"sql",
+				"sqlRelLooksStyles"
+			],
+			[
+				"arr",
+				"arrFilters"
+			],
+			[
+				"create",
+				"createURL"
+			],
+			[
+				"str",
+				"strAge"
+			],
+			[
+				"_C",
+				"_CONF"
+			],
+			[
+				"raw",
+				"rawurlencode"
+			],
+			[
+				"encode",
+				"encodeSpecialCharsUrl"
+			],
+			[
+				"form",
+				"formValue"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"param",
+				"PARAM_STR"
+			],
+			[
+				"events",
+				"events_images"
+			],
+			[
+				"row",
+				"num_rows"
+			],
+			[
+				"strParam",
+				"strParam1"
+			],
+			[
+				"str_look",
+				"str_look_image"
+			],
+			[
+				"str_meta",
+				"str_meta_description"
+			],
+			[
+				"date_cre",
+				"date_creation"
+			],
+			[
+				"tm",
+				"tm_look_creation"
+			],
+			[
+				"True",
+				"TRUE"
+			],
+			[
+				"puede",
+				"puede_aprobarse"
+			],
+			[
+				"num",
+				"num_rows"
+			],
+			[
+				"fk_us",
+				"fk_user"
+			],
+			[
+				"fas",
+				"fashion-kids"
+			],
+			[
+				"cu",
+				"currentURL"
+			],
+			[
+				"getme",
+				"getMetasContent"
+			],
+			[
+				"rec",
+				"recordset"
+			],
+			[
+				"goo",
+				"google_longitud"
+			],
+			[
+				"str_coun",
+				"str_country_name_es"
+			],
+			[
+				"country",
+				"country_name"
+			],
+			[
+				"str_co",
+				"str_country_name_es"
+			],
+			[
+				"refu",
+				"refundName"
+			],
+			[
+				"refund",
+				"refundName"
+			],
+			[
+				"promod",
+				"promocode"
+			],
+			[
+				"descuento",
+				"descuento_promocode"
+			],
+			[
+				"descue",
+				"descuento_promocode"
+			],
+			[
+				"array",
+				"array_exceptionalRefunds"
+			],
+			[
+				"refun",
+				"refund_total"
+			],
+			[
+				"base",
+				"base_imponible"
+			],
+			[
+				"shop",
+				"shop_provinces"
+			],
+			[
+				"isN",
+				"is_null"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"pk",
+				"pk_product"
+			],
+			[
+				"_pro",
+				"_product_id"
+			],
+			[
+				"str_product",
+				"str_product_name"
+			],
+			[
+				"_",
+				"_language"
+			],
+			[
+				"products",
+				"products_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/home.php",
+			"settings":
+			{
+				"buffer_size": 5313,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/database.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/.htaccess",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/looks/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/marcas/detail.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/i18/es.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/profile_privacy.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/functions.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/ajax.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/profile_notifications.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/restore_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/profile.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/confirm_register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/js/main.js",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/edit_closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/edit_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/delete_closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/edit_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/delete_closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/edit_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/header.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/create_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/footer.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/forgot_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/login.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/delete.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/i18/en.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/create_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/create_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/restore_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/delete.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/closets.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/restore_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/profile.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/privacy.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/notifications.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/login.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/help.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/forgot_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/following.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/followers.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/closets.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/mi-cuenta/closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/profile.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/privacy.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/notifications.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/login.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/help.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/forgot_password.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/following.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/followers.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/confirm_register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/mi-cuenta/closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/usuario/looks.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/usuario/following.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/usuario/followers.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/user.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/buscador/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/looks.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/models/look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/looks/detail.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/sortable.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/create_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/index.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/marcas/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/buscador/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/marcas/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/mail.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/contact.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/users/index.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/buscador/default.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/pruebas/prueba1.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/pruebas/prueba1.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/es/prueba.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/prueba.php",
+		"/Users/danielpomares/Desktop/version1.0querypopulares.txt",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/looks/detail.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/globals.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/system/language/english/upload_lang.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/js/socialcount.pinterest.js",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/idioma.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/common.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/users_types.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/users.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/texts.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/styles.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/seasons.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/prints.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/languages.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_seasons.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_images.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_brands.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/contacts.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/complaints.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/comments.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/colors.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/clothings_types.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/clothings_categories.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/closets.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/brands.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/blocks.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/banners.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/ages.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/metas.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/season.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/looks.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/brands.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/models/closet.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/closets/index.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/profile.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/templates/user-zone-upload-image.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/register.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/edit_look.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/dashboard.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/looks/index.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/js/jquery.dataTables.min.js",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/looks/update.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/models/text.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/texts/update.php",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/css/style.css",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/index.html",
+		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/div_seo.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ver-todos",
+			"view-all",
+			"strBrand",
+			"limit",
+			"eliminar",
+			"ayuda",
+			"privacidad",
+			"notificaciones",
+			"datos",
+			"';\n",
+			"editar",
+			"borrar",
+			"armarios",
+			"editar-look",
+			"subir-look",
+			"registro",
+			"restaurar-contrasena",
+			"recuperar-contrasena",
+			"salir",
+			"entrar",
+			"mi-cuenta",
+			"$i18['str-url_siguiendo']",
+			"seguidores",
+			"siguiendo",
+			"lo-quiero",
+			"usuario",
+			"following",
+			"team",
+			"equipment",
+			"usuario",
+			"ver-todos",
+			"buscador",
+			"marcas",
+			"equipo",
+			"/marcas",
+			"str-url",
+			"marcas",
+			"looks/marca",
+			"marca",
+			"filter-looks",
+			"marca:",
+			"id=\"brands\"",
+			"looks",
+			"getBlocks()",
+			"prenda:",
+			"looks/",
+			"looks",
+			"looks/",
+			"strfilter",
+			".r995",
+			"mine",
+			"//",
+			"// ",
+			"/*",
+			"getLooksFiltered2",
+			"looks/",
+			"str-filtro_sexo",
+			"$arrParam[0] == 'pais' || $arrParam[0] == 'country'",
+			"$arrParam[0] == 'perfil' || $arrParam[0] == 'profile'",
+			"$arrParam[0] == 'sexo' || $arrParam[0] == 'gender'",
+			"$arrParam[0] == 'ocasion' || $arrParam[0] == 'occasion'",
+			"$arrParam[0] == 'temporada' || $arrParam[0] == 'season'",
+			"$arrParam[0] == 'estampado' || $arrParam[0] == 'pattern'",
+			"$arrParam[0] == 'color' || $arrParam[0] == 'colour'",
+			"$arrParam[0] == 'prenda' || $arrParam[0] == 'item'",
+			"$arrParam[0] == 'edad' || $arrParam[0] == 'age'",
+			"$arrParam[0] == 'marca' || $arrParam[0] == 'brand'",
+			"$arrParam[0] == 'estilo' || $arrParam[0] == 'style'",
+			"sexo",
+			"$arrParam[0] == 'estilo' || $arrParam[0] == 'style'",
+			"($arrParam[0] == 'marca')",
+			"($arrParam[0] == 'estilo')",
+			"($arrParam[0] == 'pais')",
+			"($arrParam[0] == 'perfil')",
+			"($arrParam[0] == 'sexo')",
+			"($arrParam[0] == 'ocasion')",
+			"($arrParam[0] == 'temporada')",
+			"($arrParam[0] == 'estampado')",
+			"($arrParam[0] == 'color')",
+			"($arrParam[0] == 'prenda')",
+			"$arrParam[0] == 'edad'",
+			"sexo",
+			"looks",
+			"observaciones",
+			"input",
+			"getBrandName",
+			".$i18['str-look_alt'].' '",
+			"$alt",
+			"$i18['str-look_alt']",
+			"observaciones",
+			"insert",
+			"observaciones",
+			"momolo street style kids fashion kids moda infantil",
+			"$i18['str-look_alt']",
+			"str_look_image",
+			"$i18['str-look_alt']",
+			"'$i18['str-look_alt'].' '.getBrandName($row['pk_look']).'",
+			"momolo street style kids fashion kids '.translateBrandName($clothing['fk_brand']).'",
+			"translateBrandName($clothing['fk_brand'])",
+			"style kids",
+			"sortable.php",
+			"translateBrandName($clothing['fk_brand']",
+			"txt_look_observations",
+			"str_look_image",
+			"txt_look_observations",
+			"'txt_look_observations",
+			"str_look_image",
+			"brand",
+			"str_look_image",
+			"alt",
+			"sock_mail",
+			"str_look_image",
+			"image",
+			"str_look_image",
+			"id=\"looks\"",
+			"str_look_image",
+			"$image",
+			"str_look_image",
+			"getMainMenu",
+			"dropdown mini",
+			"encodeURICompo",
+			"function encodeURICompo",
+			"encodeURICompo",
+			"lopd@",
+			"De acuerdo",
+			"lopd@momolo.com",
+			"Act 15/1999",
+			"var"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'.$i18['str-url_mi_cuenta'].'",
+			"my-account",
+			"view-all",
+			"$arrParam[0] == $i18['str-filtro_pais']",
+			"$arrParam[0] == $i18['str-filtro_perfil']",
+			"$arrParam[0] == $i18['str-filtro_sexo']",
+			"$arrParam[0] == $i18['str-filtro_ocasion']",
+			"$arrParam[0] == $i18['str-filtro_temporada']",
+			"$arrParam[0] == $i18['str-filtro_estampado']",
+			"$arrParam[0] == $i18['str-filtro_color']",
+			"$arrParam[0] == $i18['str-filtro_prenda']",
+			"$arrParam[0] == $i18['str-filtro_edad']",
+			"$arrParam[0] == $i18['str-filtro_marca']",
+			"$arrParam[0] == $i18['str-filtro_estilo']",
+			"($arrParam[0] == 'marca' || $arrParam[0] == 'brand')",
+			"($arrParam[0] == 'estilo' || $arrParam[0] == 'style')",
+			"($arrParam[0] == 'pais' || $arrParam[0] == 'country')",
+			"($arrParam[0] == 'perfil' || $arrParam[0] == 'profile')",
+			"($arrParam[0] == 'sexo' || $arrParam[0] == 'gender')",
+			"($arrParam[0] == 'ocasion' || $arrParam[0] == 'occasion')",
+			"($arrParam[0] == 'temporada' || $arrParam[0] == 'season')",
+			"($arrParam[0] == 'estampado' || $arrParam[0] == 'pattern')",
+			"($arrParam[0] == 'color' || $arrParam[0] == 'colour')",
+			"($arrParam[0] == 'prenda' || $arrParam[0] == 'item')",
+			"$arrParam[0] == 'edad' || $arrParam[0] == 'age'",
+			"getLookAltText",
+			"",
+			"'$i18['str-look_alt'].' '.getBrandName($row['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($row2['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($row['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($row2['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($row['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($look['pk_look']).'",
+			"'$i18['str-look_alt'].' '.getBrandName($row['pk_look']).'",
+			"break;",
+			"fashion-kids",
+			"/en/",
+			"^/?en/",
+			"en/",
+			"en",
+			"'.$lang.'/'.$i18['url_street-style-kids'].'",
+			"'.$i18['url_street-style-kids'].'",
+			"moda-infantil",
+			"es",
+			"^/?es/",
+			"2';",
+			" 2';",
+			"2';"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/home.php",
+					"settings":
+					{
+						"buffer_size": 5313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 571.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true
+}
