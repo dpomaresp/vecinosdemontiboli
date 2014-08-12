@@ -95,13 +95,18 @@
                 gallery: {
                     enabled: true,
                     navigateByImgClick: true,
-                    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+                    preload: [0,1], // Will preload 0 - before current, and 1 after the current image
+                    tCounter: '%curr% de %total%'
                 },
                 image: {
                     tError: '<a href="%url%">No se pudo cargar la imagen #%curr%</a>.',
                     titleSrc: function(item) {
-                        return '<small>by Author</small>';
+                        return '<small>by Vicent Galiana</small>';
                     }
+                },
+                zoom: {
+                    enabled: true, // By default it's false, so don't forget to enable it
+                    duration: 300
                 }
             });
         });
