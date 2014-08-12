@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Asociación Vecinos de Montíboli - Home</title>
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
@@ -14,7 +14,7 @@
   <!--==============================header=================================-->
     <header>
         <h2>
-            Asociacion Vecinos de Montiboli
+            Asociación Vecinos de Montíboli
         </h2>
     </header>
      <div id="header">
@@ -35,42 +35,43 @@
             <a href="https://drive.google.com/uc?export=download&id=0BwGO8QQgHdpjZlRuVTFmcUxpRXM" class="button fright"> Descargar estatutos </a>
         </div>
         <div class="clear"></div>
-            <div class="new-content">
-            <h2 class="p4">Ultimas noticias</h2>
-            <?php
-                $this->lang->load('calendar');
-                
-                foreach($news as $new){
-                    $date = new DateTime($new->new_creation_date);
+        <div class="new-content">
+        <h2 class="p4">Últimas noticias</h2>
+        <?php
+            $this->lang->load('calendar');
+            
+            foreach($news as $new){
 
-                    $day = $date->format('d');
-                    $month = $date->format('n');
-                    $array = $this->lang->line('months');
-                    $year = $date->format('Y');
-                    $formated_date = $day.' de '.$array[$month-1].', '.$year;
+                $date = new DateTime($new->new_creation_date);
 
-                    echo '<div class="wrap">';
-                    echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
-                    // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
-                    echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
-                    echo '</div>';
-                    echo '<br/><br/>';    
-                }
-            ?>
-            </div>
-            <div id="gallery" class="popup-gallery">
-                <a href="/images/sliders/slider1.jpg"><img src="/images/sliders/slider1.jpg" alt="Imagen 1" /></a>
-                <a href="/images/sliders/slider2.jpg"><img src="/images/sliders/slider2.jpg" alt="Imagen 2" /></a>
-                <a href="/images/sliders/slider3.jpg"><img src="/images/sliders/slider3.jpg" alt="Imagen 3" /></a>
-                <a href="/images/sliders/slider4.jpg"><img src="/images/sliders/slider4.jpg" alt="Imagen 4" /></a>
-            </div>
+                $day = $date->format('d');
+                $month = $date->format('n');
+                $array = $this->lang->line('months');
+                $year = $date->format('Y');
+                $formated_date = $day.' de '.$array[$month-1].', '.$year;
+
+                echo '<div class="wrap">';
+                echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
+                // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
+                echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
+                echo '</div>';
+                echo '<br/><br/>';    
+            }
+        ?>
+        </div>
+        <div id="gallery" class="popup-gallery">
+            <a href="/images/sliders/slider1.jpg"><img src="/images/sliders/slider1.jpg" alt="Imagen 1" /></a>
+            <a href="/images/sliders/slider2.jpg"><img src="/images/sliders/slider2.jpg" alt="Imagen 2" /></a>
+            <a href="/images/sliders/slider3.jpg"><img src="/images/sliders/slider3.jpg" alt="Imagen 3" /></a>
+            <a href="/images/sliders/slider4.jpg"><img src="/images/sliders/slider4.jpg" alt="Imagen 4" /></a>
+        </div>
         <div class="clear"></div>
     </div>       
 <!--==============================footer=================================-->
     <footer>
         <hr>
         <div class="fright">
-        	<p>© 2014 Asociación Vecinos de Montiboli<br>
+        	<p>© 2014 Asociación Vecinos de Montíboli<br>
          		<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
          	    Template by TemplateMonster.com
          		</a>
@@ -79,12 +80,6 @@
     </footer>
     </body>
     <script src="/js/jquery-1.7.min.js"></script>
-    <script src="/js/jquery.easing.1.3.js"></script>
-    <script src="/js/tms-0.4.1.js"></script>
-    <script src="/js/cufon-yui.js"></script>
-    <script src="/js/cufon-replace.js"></script>
-    <script src="/js/Kozuka_L_300.font.js"></script>
-    <script src="/js/Kozuka_B_700.font.js"></script>
     <script src="/js/jquery.magnific-popup.js"></script>
     <script>
         $(document).ready(function() {

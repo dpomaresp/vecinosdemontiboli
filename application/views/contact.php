@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Asociación Vecinos de Montíboli - Contacto</title>
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
@@ -12,7 +12,7 @@
   <!--==============================header=================================-->
     <header>
         <h2>
-            Asociacion Vecinos de Montiboli
+            Asociación Vecinos de Montíboli
         </h2>
     </header>
      <div id="header">
@@ -63,7 +63,7 @@
     <footer>
         <hr>
         <div class="fright">
-        	<p>© 2014 Asociación Vecinos de Montiboli<br>
+        	<p>© 2014 Asociación Vecinos de Montíboli<br>
          		<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
          	    Template by TemplateMonster.com
          		</a>
@@ -72,12 +72,6 @@
     </footer>	 
     </body>
     <script src="/js/jquery-1.7.min.js"></script>
-    <script src="/js/jquery.easing.1.3.js"></script>
-    <script src="/js/tms-0.4.1.js"></script>
-    <script src="/js/cufon-yui.js"></script>
-    <script src="/js/cufon-replace.js"></script>
-    <script src="/js/Kozuka_L_300.font.js"></script>
-    <script src="/js/Kozuka_B_700.font.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         var map;

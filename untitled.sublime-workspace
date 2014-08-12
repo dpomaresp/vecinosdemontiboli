@@ -227,7 +227,15 @@
 			"file": "application/views/home.php",
 			"settings":
 			{
-				"buffer_size": 5313,
+				"buffer_size": 5308,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/contact.php",
+			"settings":
+			{
+				"buffer_size": 4640,
 				"line_ending": "Windows"
 			}
 		}
@@ -256,7 +264,54 @@
 	},
 	"file_history":
 	[
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/style.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/home.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/.htaccess",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/index.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/demo.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/calendar_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/unit_test_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/scaffolding_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/profiler_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/number_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/date_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/migration_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/imglib_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/ftp_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/form_validation_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/email_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/db_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/upload_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/grid_12.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/slider.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/reset.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/magnific-popup.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/ie.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/contact.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/home.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/index.html",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/new.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/config.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/autoload.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/doctypes.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/foreign_chars.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/hooks.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/index.html",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/migration.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/mimes.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/database.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/profiler.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/smileys.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/user_agents.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/routes.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/constants.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/index.html",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/new.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/contact_model.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/index.html",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/new_model.php",
+		"/Users/danielpomares/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/.htaccess",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/data/looks/default.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/data/marcas/detail.php",
@@ -336,54 +391,7 @@
 		"/Users/danielpomares/Documents/htdocs/momolo.com/es/prueba.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/data/prueba.php",
 		"/Users/danielpomares/Desktop/version1.0querypopulares.txt",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/en/looks/detail.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/globals.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/system/language/english/upload_lang.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/js/socialcount.pinterest.js",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/idioma.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/common.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/closet.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/users_types.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/users.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/texts.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/styles.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/seasons.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/prints.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/languages.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_seasons.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_images.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events_brands.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/events.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/contacts.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/complaints.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/comments.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/colors.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/clothings_types.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/clothings_categories.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/closets.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/brands.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/blocks.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/banners.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/ages.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/controllers/metas.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/season.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/looks.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/fashion-shows/brands.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/models/closet.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/closets/index.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/profile.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/templates/user-zone-upload-image.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/register.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/mi-cuenta/edit_look.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/dashboard.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/looks/index.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/js/jquery.dataTables.min.js",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/looks/update.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/models/text.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/texts/update.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/css/style.css",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/index.html",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/div_seo.php"
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/looks/detail.php"
 	],
 	"find":
 	{
@@ -403,6 +411,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h2",
+			"font",
+			"h2",
+			"input",
+			"of",
 			"ver-todos",
 			"view-all",
 			"strBrand",
@@ -525,12 +538,7 @@
 			"dropdown mini",
 			"encodeURICompo",
 			"function encodeURICompo",
-			"encodeURICompo",
-			"lopd@",
-			"De acuerdo",
-			"lopd@momolo.com",
-			"Act 15/1999",
-			"var"
+			"encodeURICompo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -604,15 +612,15 @@
 					"file": "application/views/home.php",
 					"settings":
 					{
-						"buffer_size": 5313,
+						"buffer_size": 5308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								690,
-								690
+								885,
+								885
 							]
 						],
 						"settings":
@@ -622,7 +630,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 571.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/contact.php",
+					"settings":
+					{
+						"buffer_size": 4640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2881,
+								2881
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
