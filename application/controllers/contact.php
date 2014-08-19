@@ -9,7 +9,6 @@ class Contact extends CI_Controller {
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
         $this->form_validation->set_rules('telefono', 'Teléfono', 'trim|required');
         $this->form_validation->set_rules('mensaje', 'Mensaje', 'trim|required');
-        
     }
 
 	public function index()
@@ -39,7 +38,12 @@ class Contact extends CI_Controller {
 	        redirect('home', 'refresh');
 	    }
 	    else{
-	        $this->load->view('contact');
+	    	$data['errors'] = validation_errors();
+	    	$data['name'] = $this->input->post('nombre');
+	    	$data['email'] = $this->input->post('email');
+	    	$data['phone'] = $this->input->post('telefono');
+	    	$data['message'] = $this->input->post('message');
+	        $this->load->view('contact', $data);
 	    }
 	}
 }
