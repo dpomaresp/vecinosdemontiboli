@@ -1,35 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Asociación Vecinos de Montíboli - Home</title>
-    <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
-</head>
-<body>
-  <!--==============================header=================================-->
-    <header>
-        <h2>
-            Asociación Vecinos de Montíboli
-        </h2>
-    </header>
-     <div id="header">
-        <nav>  
-            <ul class="menu">
-                <li class="current"><a href="">Home</a></li>
-                <li><a >Noticias</a></li>
-                <li><a href="/contact/">Contacto</a></li>
-            </ul>
-            <div class="clear"></div>
-        </nav>
-         
-        <hr>
-    </div>
-  <!--==============================content================================-->
     <div class="main-content">
         <div id="links">
             <a href="https://drive.google.com/uc?export=download&id=0BwGO8QQgHdpjZlRuVTFmcUxpRXM" class="button fright"> Descargar estatutos </a>
@@ -66,19 +34,9 @@
             <a href="/images/sliders/slider4.jpg"><img src="/images/sliders/slider4.jpg" alt="Imagen 4" /></a>
         </div>
         <div class="clear"></div>
-    </div>       
-<!--==============================footer=================================-->
-    <footer>
-        <hr>
-        <div class="fright">
-        	<p>© 2014 Asociación Vecinos de Montíboli<br>
-         		<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
-         	    Template by TemplateMonster.com
-         		</a>
-            </p>
- 		</div>
-    </footer>
-    </body>
+    </div>
+    <?php echo $footer; ?>
+</body>
     <script src="/js/jquery-1.7.min.js"></script>
     <script src="/js/jquery.magnific-popup.js"></script>
     <script>
@@ -86,7 +44,7 @@
             $('.popup-gallery').magnificPopup({
                 delegate: 'a',
                 type: 'image',
-                tLoading: 'Cargando imagen #%curr%...',
+                tLoading: 'Cargando...',
                 gallery: {
                     enabled: true,
                     navigateByImgClick: true,
@@ -114,8 +72,7 @@
       </div>
     <![endif]-->
     <!--[if lt IE 9]>
-       	<script type="text/javascript" src="js/html5.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+        <script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
     <![endif]-->
-</body>
-</html>
+</html>    

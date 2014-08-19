@@ -23,9 +23,17 @@ class Home extends CI_Controller {
 	    
 	    $last_three_news = $this->new_model->getNews(0, 3);
 	    
+	    $data_header['header_title'] = 'Asociación Vecinos de Montíboli - Home';
+	    $data_header['stylesheets'] = array('reset', 'grid_12', 'style', 'magnific-popup', 'slider');
+	    $data_header['current_page'] = 'Home';
+	    
+	    $this->load->view('includes/header', $data_header);
+	    
 	    $data['news'] = $last_three_news;
 	    
-		$this->load->view('home', $data);
+	    $data['footer'] = $this->load->view('includes/footer', NULL, TRUE);
+
+	    $this->load->view('home', $data);
 	}
 }
 

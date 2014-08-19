@@ -14,12 +14,20 @@ class Contact extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('contact');
+	    $data_header['header_title'] = 'Asociación Vecinos de Montíboli - Contacto';
+	    $data_header['stylesheets'] = array('reset', 'grid_12', 'style');
+	    $data_header['current_page'] = 'Contact';
+	    
+	    $this->load->view('includes/header', $data_header);
+	    
+	    $data['footer'] = $this->load->view('includes/footer', NULL, TRUE);
+
+	    $this->load->view('contact', $data);
 	}
 	
 	public function submit()
 	{
-	    if($this->form_validation->run()){
+	    if($this->form_validation->run()) {
 	        $this->load->library('email');
 	        
 	        error_reporting(E_ALL ^ E_NOTICE);
@@ -27,7 +35,7 @@ class Contact extends CI_Controller {
 	        $this->email->set_mailtype('html');
 
             $this->email->from($this->input->post('email'), $this->input->post('nombre'));
-            $this->email->to('asociacion@vecinosdemontiboli.com'); 
+            $this->email->to('asociacion@vecinosdemontiboli.com');
             
             $this->email->subject('Nuevo contacto desde www.vecinosdemontiboli.com');
             $body = '<ul><li><b>Teléfono del contacto: </b>'.$this->input->post('telefono').'</li><br/>'.

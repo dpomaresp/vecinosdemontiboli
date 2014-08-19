@@ -10,9 +10,10 @@ class New_model extends CI_Model {
     {
         $query = '';
         
-        if(!empty($limit) && !empty($offset)){
-            $this->db->order_by('new_creation_date', 'desc'); 
-            $query = $this->db->get('News', $offset, $limit);    
+        if(!empty($limit) && $offset >= 0){
+            $this->db->limit($limit, $offset); 
+            $this->db->order_by('new_creation_date', 'desc');
+            $query = $this->db->get('News');    
         }
         else{
             $this->db->order_by('new_creation_date', 'desc');
