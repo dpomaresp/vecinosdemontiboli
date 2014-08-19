@@ -224,19 +224,19 @@
 	"buffers":
 	[
 		{
-			"file": "application/views/home.php",
+			"file": "application/views/template.php",
 			"settings":
 			{
-				"buffer_size": 5308,
-				"line_ending": "Windows"
+				"buffer_size": 291,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "application/views/contact.php",
+			"file": "application/controllers/home.php",
 			"settings":
 			{
-				"buffer_size": 4679,
-				"line_ending": "Windows"
+				"buffer_size": 1689,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -609,56 +609,53 @@
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/home.php",
+					"file": "application/views/template.php",
 					"settings":
 					{
-						"buffer_size": 5308,
+						"buffer_size": 291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								885,
-								885
+								218,
+								218
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 32.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "application/views/contact.php",
+					"file": "application/controllers/home.php",
 					"settings":
 					{
-						"buffer_size": 4679,
+						"buffer_size": 1689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2555,
-								2555
+								1556,
+								1556
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 710.0,
+						"translation.y": 232.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

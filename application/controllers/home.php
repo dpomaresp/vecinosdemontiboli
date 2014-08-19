@@ -21,19 +21,30 @@ class Home extends CI_Controller {
 	{
 	    $this->load->model('new_model');
 	    
-	    $last_three_news = $this->new_model->getNews(0, 3);
+	    // $last_three_news = $this->new_model->getNews(0, 3);
 	    
-	    $data_header['header_title'] = 'Asociación Vecinos de Montíboli - Home';
-	    $data_header['stylesheets'] = array('reset', 'grid_12', 'style', 'magnific-popup', 'slider');
-	    $data_header['current_page'] = 'Home';
+	    // $data_header['header_title'] = 'Asociación Vecinos de Montíboli - Home';
+	    // $data_header['stylesheets'] = array('reset', 'grid_12', 'style', 'magnific-popup', 'slider');
+	    // $data_header['current_page'] = 'Home';
 	    
-	    $this->load->view('includes/header', $data_header);
+	    // $this->load->view('includes/header', $data_header);
+	    
+	    // $data['news'] = $last_three_news;
+	    
+	    // $data['footer'] = $this->load->view('includes/footer', NULL, TRUE);
+
+	    // $this->load->view('home', $data);
+
+		$last_three_news = $this->new_model->getNews(0, 3);
+	    
+	    $data['header_title'] = 'Asociación Vecinos de Montíboli - Home';
+	    $data['stylesheets'] = array('reset', 'grid_12', 'style', 'magnific-popup', 'slider');
+	    $data['current_page'] = 'Home';
 	    
 	    $data['news'] = $last_three_news;
-	    
-	    $data['footer'] = $this->load->view('includes/footer', NULL, TRUE);
 
-	    $this->load->view('home', $data);
+	    $data['content'] = 'Home'; 
+    	$this->load->view('template', $data);
 	}
 }
 
