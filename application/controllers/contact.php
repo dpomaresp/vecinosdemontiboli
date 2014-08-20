@@ -14,21 +14,24 @@ class Contact extends CI_Controller {
 
 	public function index()
 	{
-	    $data_header['header_title'] = 'Asociación Vecinos de Montíboli - Contacto';
-	    $data_header['stylesheets'] = array('reset', 'grid_12', 'style');
-	    $data_header['current_page'] = 'Contact';
-	    
-	    $this->load->view('includes/header', $data_header);
-	    
-	    $data['footer'] = $this->load->view('includes/footer', NULL, TRUE);
+	    $data['header_title'] = 'Asociación Vecinos de Montíboli - Contacto';
+	    $data['stylesheets'] = array('reset', 'grid_12', 'style');
+	    $data['current_page'] = 'Contact';
+	    $data['data_content'] = array(
+	    						'nombre' => NULL,
+	    						'email' => NULL,
+	    						'telefono' => NULL,
+	    						'mensaje' => NULL
+	    						);
 
-	    $this->load->view('contact', $data);
+	    $this->load->view('template', $data);
 	}
 	
 	public function submit()
 	{
 	    if($this->form_validation->run()) {
 	        $this->load->library('email');
+	        $this->load->model('contact_model');
 	        
 	        error_reporting(E_ALL ^ E_NOTICE);
 	        
@@ -44,10 +47,24 @@ class Contact extends CI_Controller {
             
             $this->email->send();
             
+            $this->contact_model->newContact($this->input->post('nombre'), $this->input->post('email'), $this->input->post('telefono'),
+            	$this->input->post('mensaje'));
+            
 	        redirect('home', 'refresh');
 	    }
 	    else{
-	        $this->load->view('contact');
+	    	$data['header_title'] = 'Asociación Vecinos de Montíboli - Contacto';
+		    $data['stylesheets'] = array('reset', 'grid_12', 'style');
+		    $data['current_page'] = 'Contact';
+		    
+		    $data['data_content'] = array(
+		    						'nombre' => $this->input->post('nombre'),
+		    						'email' => $this->input->post('email'),
+		    						'telefono' => $this->input->post('telefono'),
+		    						'mensaje' => $this->input->post('mensaje')
+		    						);
+
+	        $this->load->view('template', $data);
 	    }
 	}
 }

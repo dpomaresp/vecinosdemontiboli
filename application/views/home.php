@@ -8,7 +8,7 @@
         <?php
             $this->lang->load('calendar');
             
-            foreach($news as $new){
+            foreach($data_content['news'] as $new) {
 
                 $date = new DateTime($new->new_creation_date);
 

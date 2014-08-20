@@ -4,7 +4,8 @@
     
     $footer = $this->load->view('includes/footer', NULL, TRUE);
 
-    $data = array(	
-    				'footer' => $footer);
-    $this->load->view($content, $data);
+    $data['footer'] = $footer;
+    $data['$data_content'] = $data_content;
+
+    $this->load->view($current_page, $data);
 ?>
