@@ -35,20 +35,20 @@ class Contact extends CI_Controller {
 	        
 	        error_reporting(E_ALL ^ E_NOTICE);
 	        
-	        $this->email->set_mailtype('html');
+	        // $this->email->set_mailtype('html');
 
-            $this->email->from($this->input->post('email'), $this->input->post('nombre'));
-            $this->email->to('asociacion@vecinosdemontiboli.com');
+         //    $this->email->from($this->input->post('email'), $this->input->post('nombre'));
+         //    $this->email->to('asociacion@vecinosdemontiboli.com');
             
-            $this->email->subject('Nuevo contacto desde www.vecinosdemontiboli.com');
-            $body = '<ul><li><b>Teléfono del contacto: </b>'.$this->input->post('telefono').'</li><br/>'.
-                    '<li><b>Mensaje: </b>'.'<br/>'.$this->input->post('mensaje').'</li></ul>';
-            $this->email->message($body);	
+         //    $this->email->subject('Nuevo contacto desde www.vecinosdemontiboli.com');
+         //    $body = '<ul><li><b>Teléfono del contacto: </b>'.$this->input->post('telefono').'</li><br/>'.
+         //            '<li><b>Mensaje: </b>'.'<br/>'.$this->input->post('mensaje').'</li></ul>';
+         //    $this->email->message($body);	
             
-            $this->email->send();
-            
-            $this->contact_model->newContact($this->input->post('nombre'), $this->input->post('email'), $this->input->post('telefono'),
-            	$this->input->post('mensaje'));
+         //    $this->email->send();
+
+            $this->contact_model->insert($this->input->post('nombre'), $this->input->post('email'), $this->input->post('telefono'),
+            	$this->input->post('mensaje'), date('Y-m-d H:i:s'));
             
 	        redirect('home', 'refresh');
 	    }

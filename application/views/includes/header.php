@@ -35,11 +35,11 @@
                         echo '<li><a href="/">Home</a></li>';   
                     }
 
-                    if($current_page == 'New') {
+                    if($current_page == 'News') {
                         echo '<li class="current"><a href="">Noticias</a></li>';
                     }
                     else{
-                        echo '<li><a href="/new/">Noticias</a></li>';   
+                        echo '<li><a href="/news/">Noticias</a></li>';   
                     }
 
                     if($current_page == 'Contact') {

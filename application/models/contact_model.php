@@ -38,7 +38,7 @@ class Contact_model extends CI_Model {
             'contact_email' => $email,
             'contact_phone_number' => $phone,
             'contact_comment' => $comment,
-            'new_creation_date' => $date
+            'contact_creation_date' => $date
         );
 
         $this->db->insert('Contacts', $data);

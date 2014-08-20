@@ -19,9 +19,9 @@ class Home extends CI_Controller {
 	 */
 	public function index()
 	{
-	    $this->load->model('new_model');
+	    $this->load->model('news_model');
 	    
-	    $last_three_news = $this->new_model->getNews(0, 3);
+	    $last_three_news = $this->news_model->getNews(0, 3);
 	    
 	    // params for the header
 	    $data['header_title'] = 'Asociación Vecinos de Montíboli - Home';

@@ -17,7 +17,7 @@
                 $array = $this->lang->line('months');
                 $year = $date->format('Y');
                 $formated_date = $day.' de '.$array[$month-1].', '.$year;
-
+                
                 echo '<div class="wrap">';
                 echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
                 // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014

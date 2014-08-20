@@ -85,7 +85,7 @@ a:hover {text-decoration:none;}
 
 
 
-h2 { font-size:26px; line-height:32px; color:#fff; font-weight:normal; }
+h2 { font-size:26px; line-height:32px; color:#fff; font-weight:normal; margin-bottom: 20px;}
 
 h3 { font-size:18px; line-height:24px; color:#fff; font-weight:normal; }
 
@@ -114,6 +114,15 @@ ul.list-2 li a:hover {color:#ef6f53;}
 .clear {clear:both; line-height:0; font-size:0; width:100%;}
 
 .wrapper {width:100%; overflow:hidden; position:relative}
+
+.box-piece_of_new {
+    margin-bottom: 20px;
+    padding: 15px;
+    border:double 3px #423f42;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
 
 .wrap {overflow:hidden; position:relative;}
 
