@@ -33,11 +33,12 @@ class New_model extends CI_Model {
         return $query->result();
     }    
     
-    function insert($title, $description, $date)
+    function insert($title, $description, $date, $external_link)
     {
         $data = array (
             'new_title' => $title,
             'new_description' => $description,
+            'new_external_link' => $external_link,
             'new_creation_date' => $date
         );
 
@@ -54,11 +55,12 @@ class New_model extends CI_Model {
         return $this->db->affected_rows();
     }
     
-    function update($id, $title, $description, $date)
+    function update($id, $title, $description, $external_link, $date)
     {
         $data = array (
             'new_title' => $title,
             'new_description' => $description,
+            'new_external_link' => $external_link,
             'new_creation_date' => $date
         );
 

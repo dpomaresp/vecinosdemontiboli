@@ -48,8 +48,12 @@
                 echo '<div class="box-piece_of_new">';
                 echo '<div class="wrap">';
                 echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
-                // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
-                echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
+                if(!empty($new->new_external_link)){
+                    echo '<a href="'.$new->new_external_link.'" class="link" target="_blank">'.$new->new_title.'</a><br>'.$new->new_description.'</p>';
+                }
+                else{
+                    echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>';
+                }
                 echo '</div>';
                 echo '</div>';    
             }
