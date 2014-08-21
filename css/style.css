@@ -55,6 +55,10 @@ a:hover {text-decoration:none;}
     margin: 5px;
 }
 
+.new_icons a{
+    margin-right: 10px;
+}
+
 .button {
     background:#ef6f53; 
     font-family: Tahoma, Geneva, sans-serif;
@@ -69,7 +73,10 @@ a:hover {text-decoration:none;}
 
 .button:hover {background:#4F6FAC; color:#fff; }
 
-
+.title_piece_of_new{
+    color:#4F6FAC;
+    text-decoration:none;
+}
 
 .link {color:#4F6FAC; text-decoration:none; }
 

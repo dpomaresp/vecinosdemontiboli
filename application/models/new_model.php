@@ -70,6 +70,14 @@ class New_model extends CI_Model {
         return $this->db->affected_rows();
     }
 
+
+    function hasPictures($id) {
+        $this->db->where('fk_new_id', $id);
+        $query = $this->db->get('Images_new');
+
+        return $query->num_rows();
+    }
+
 }
 
 ?>

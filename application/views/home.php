@@ -40,7 +40,7 @@
         <?php
             $this->lang->load('calendar');
             
-            foreach($news as $new) {
+            foreach($news as $new){
 
                 $date = new DateTime($new->new_creation_date);
 
@@ -52,15 +52,22 @@
 
                 echo '<div class="box-piece_of_new">';
                 echo '<div class="wrap">';
-                echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
+                echo '<p class="extra-wrap">';
+                echo '<div class="new_icons">';
+                echo '<span class="clr-1">'.$formated_date.'</span>';
+                
+                if($this->new_model->hasPictures($new->new_id)){
+                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/picture_icon.png" title="Ver fotos" /></a>';
+                }
                 if(!empty($new->new_external_link)){
-                    echo '<a href="'.$new->new_external_link.'" class="link" target="_blank">'.$new->new_title.'</a><br>'.$new->new_description.'</p>';
+                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/more_icon.png" title="Seguir leyendo" /></a>';
                 }
-                else{
-                    echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>';
-                }
+                                                
                 echo '</div>';
+                echo '<p class="title_piece_of_new">'.$new->new_title.'</p>'.$new->new_description.'</p>';
+
                 echo '</div>';
+                echo '</div>'; 
             }
         ?>
         </div>
