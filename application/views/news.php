@@ -62,7 +62,7 @@
                 echo '<p class="title_piece_of_new">'.$new->new_title.'</p>'.$new->new_description.'</p>';
 
                 echo '</div>';
-                echo '</div>';    
+                echo '</div>';
             }
         ?>
         </div>

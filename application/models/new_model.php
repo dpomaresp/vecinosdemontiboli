@@ -78,6 +78,11 @@ class New_model extends CI_Model {
         return $query->num_rows();
     }
 
+    function count(){
+        $query = $this->db->get('News');
+
+        return $query->num_rows();   
+    }
 }
 
 ?>
