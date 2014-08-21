@@ -32,6 +32,42 @@ class News_model extends CI_Model {
         
         return $query->result();
     }    
+    
+    function insert($title, $description, $date)
+    {
+        $data = array (
+            'new_title' => $title,
+            'new_description' => $description,
+            'new_creation_date' => $date
+        );
+
+        $this->db->insert('News', $data);
+        
+        return $this->db->affected_rows();
+    }
+
+    function delete($id)
+    {
+        $this->db->where('new_id', $id);
+        $this->db->delete('News');
+        
+        return $this->db->affected_rows();
+    }
+    
+    function update($id, $title, $description, $date)
+    {
+        $data = array (
+            'new_title' => $title,
+            'new_description' => $description,
+            'new_creation_date' => $date
+        );
+
+        $this->db->where('new_id', $id);
+        $this->db->update('News', $data); 
+        
+        return $this->db->affected_rows();
+    }
+
 }
 
 ?>
