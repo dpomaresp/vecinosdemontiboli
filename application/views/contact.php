@@ -19,7 +19,7 @@
         <nav>  
             <ul class="menu">
                 <li><a href="/">Home</a></li>
-                <li><a >Noticias</a></li>
+                <li><a href="/news/">Noticias</a></li>
                 <li class="current"><a href="">Contacto</a></li>
             </ul>
             <div class="clear"></div>
@@ -68,9 +68,7 @@
         </div>
         <div class="fright">
         	<p>© 2014 Asociación Vecinos de Montíboli<br>
-         		<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
-         	    Template by TemplateMonster.com
-         		</a>
+         		by dpe
             </p>
  		</div>
     </footer>	 
@@ -97,8 +95,6 @@
               map: map,
               title: 'Hello World!'
             });
-              
-            
         }
         
         google.maps.event.addDomListener(window, 'load', initialize);

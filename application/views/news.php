@@ -64,9 +64,7 @@
         </div>
         <div class="fright">
             <p>© 2014 Asociación Vecinos de Montíboli<br>
-                <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
-                Template by TemplateMonster.com
-                </a>
+                by dpe
             </p>
         </div>
     </footer>

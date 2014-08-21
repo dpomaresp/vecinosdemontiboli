@@ -50,12 +50,13 @@
                 $year = $date->format('Y');
                 $formated_date = $day.' de '.$array[$month-1].', '.$year;
 
+                echo '<div class="box-piece_of_new">';
                 echo '<div class="wrap">';
                 echo '<p class="extra-wrap"><span class="clr-1">'.$formated_date.'</span><br>';
                 // echo '<a href="/new/'.$new->new_id.'" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
                 echo '<a href="" class="link">'.$new->new_title.'</a><br>'.$new->new_description.'</p>'; //1 de Agosto, 2014
                 echo '</div>';
-                echo '<br/><br/>';    
+                echo '</div>';
             }
         ?>
         </div>
@@ -76,9 +77,7 @@
         </div>
         <div class="fright">
         	<p>© 2014 Asociación Vecinos de Montíboli<br>
-         		<a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link">
-         	    Template by TemplateMonster.com
-         		</a>
+         		by dpe
             </p>
  		</div>
     </footer>
