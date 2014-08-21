@@ -21,7 +21,7 @@
         <nav>  
             <ul class="menu">
                 <li class="current"><a href="">Home</a></li>
-                <li><a >Noticias</a></li>
+                <li><a href="/news/">Noticias</a></li>
                 <li><a href="/contact/">Contacto</a></li>
             </ul>
             <div class="clear"></div>
