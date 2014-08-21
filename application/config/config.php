@@ -14,6 +14,7 @@
 |
 */
 $config['base_url']	= '';
+// $config['base_url']	= 'www.vecinosdemontiboli.espira/news/page/';
 
 /*
 |--------------------------------------------------------------------------
@@ -317,7 +318,8 @@ $config['smtp_port'] = 465;
 | Email settings
 |--------------------------------------------------------------------------
 */
-$config['pagination_size'] = '5';
+$config['total_rows'] = 10;
+$config['per_page'] = 2;
 
 
 /*

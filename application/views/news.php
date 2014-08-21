@@ -64,6 +64,7 @@
                 echo '</div>';
                 echo '</div>';
             }
+            var_dump($this->pagination->create_links());
         ?>
         </div>
     </div>

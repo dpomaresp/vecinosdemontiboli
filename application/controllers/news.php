@@ -14,21 +14,20 @@ class News extends CI_Controller {
 	}
 
 	public function page($number){
+		global $config;
+		$this->load->library('pagination');
 		$this->load->model('new_model');
 
-		$page_size = $this->config->item('pagination_size');
-		$max_pages = floor($this->new_model->count()/$page_size);
+		$page_size = $this->config->item('per_page');
 
-		if($this->new_model->count()%$page_size > 0){
-			$max_pages++;
-		}
-
-		if($number > 0 && $number <= $max_pages){
+		if($number > 0){
 			$offset = ($number-1)*$page_size;
 
 			$last_news = $this->new_model->getNews($offset, $page_size);
+			$this->config->set_item('total_rows', $this->new_model->count());
 			$data['news'] = $last_news;
-			$data['page'] = $number;
+
+			$this->pagination->initialize($config);
 		
 			$this->load->view('news', $data);
 		}
