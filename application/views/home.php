@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
 
-    <meta name="description" content="Página principal donde podráß ver las últimas noticias sobre la
+    <meta name="description" content="Página principal donde podrás ver las últimas noticias sobre la
     Asociación de Vecinos de Montíboli junto con una serie de fotos de Montíboli." >
 </head>
 <body>

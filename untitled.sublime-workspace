@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"to",
+				"to_date"
+			],
+			[
 				"ar",
 				"armario_filter"
 			],
@@ -224,10 +228,10 @@
 	"buffers":
 	[
 		{
-			"file": "application/views/home2.php",
+			"file": "application/views/contact.php",
 			"settings":
 			{
-				"buffer_size": 5645,
+				"buffer_size": 5095,
 				"line_ending": "Windows"
 			}
 		},
@@ -235,55 +239,15 @@
 			"file": "application/views/home.php",
 			"settings":
 			{
-				"buffer_size": 3643,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/contact2.php",
-			"settings":
-			{
-				"buffer_size": 5016,
+				"buffer_size": 6272,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/includes/header.php",
+			"file": "application/views/news.php",
 			"settings":
 			{
-				"buffer_size": 2123,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/contact.php",
-			"settings":
-			{
-				"buffer_size": 3081,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/views/includes/footer.php",
-			"settings":
-			{
-				"buffer_size": 602,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/controllers/home.php",
-			"settings":
-			{
-				"buffer_size": 1282,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "application/controllers/contact.php",
-			"settings":
-			{
-				"buffer_size": 1564,
+				"buffer_size": 5611,
 				"line_ending": "Unix"
 			}
 		}
@@ -312,15 +276,22 @@
 	},
 	"file_history":
 	[
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/new_model.php",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/home.php",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/style.css",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/news.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/home.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/news.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/new_model.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/style.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/calendar_lang.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/home2.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact2.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/includes/header.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/includes/footer.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/home.php",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/contact.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/.htaccess",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/index.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/demo.css",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/calendar_lang.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/unit_test_lang.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/scaffolding_lang.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/profiler_lang.php",
@@ -338,7 +309,6 @@
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/reset.css",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/magnific-popup.css",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/ie.css",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/contact.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/index.html",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/new.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/config/config.php",
@@ -433,13 +403,7 @@
 		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/mail.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/contact.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/users/index.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/en/buscador/default.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/pruebas/prueba1.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/es/pruebas/prueba1.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/es/prueba.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/data/prueba.php",
-		"/Users/danielpomares/Desktop/version1.0querypopulares.txt",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/en/looks/detail.php"
+		"/Users/danielpomares/Documents/htdocs/momolo.com/en/buscador/default.php"
 	],
 	"find":
 	{
@@ -459,6 +423,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Sabado",
+			"e",
+			"z-index",
+			"png",
 			"h2",
 			"font",
 			"h2",
@@ -582,11 +550,7 @@
 			"str_look_image",
 			"$image",
 			"str_look_image",
-			"getMainMenu",
-			"dropdown mini",
-			"encodeURICompo",
-			"function encodeURICompo",
-			"encodeURICompo"
+			"getMainMenu"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -652,23 +616,23 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/home2.php",
+					"file": "application/views/contact.php",
 					"settings":
 					{
-						"buffer_size": 5645,
+						"buffer_size": 5095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3859,
-								3859
+								514,
+								718
 							]
 						],
 						"settings":
@@ -688,44 +652,43 @@
 					"file": "application/views/home.php",
 					"settings":
 					{
-						"buffer_size": 3643,
+						"buffer_size": 6272,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2177,
-								2177
+								745,
+								745
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 47.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "application/views/contact2.php",
+					"file": "application/views/news.php",
 					"settings":
 					{
-						"buffer_size": 5016,
+						"buffer_size": 5611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								502,
-								327
+								807,
+								807
 							]
 						],
 						"settings":
@@ -734,146 +697,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 32.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/views/includes/header.php",
-					"settings":
-					{
-						"buffer_size": 2123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1718,
-								1718
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/views/contact.php",
-					"settings":
-					{
-						"buffer_size": 3081,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3081,
-								3081
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "application/views/includes/footer.php",
-					"settings":
-					{
-						"buffer_size": 602,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								591,
-								591
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "application/controllers/home.php",
-					"settings":
-					{
-						"buffer_size": 1282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								643,
-								1192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 46.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "application/controllers/contact.php",
-					"settings":
-					{
-						"buffer_size": 1564,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1017,
-								1017
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 86.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
