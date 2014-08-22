@@ -3,12 +3,11 @@
 <head>
     <title>Asociación Vecinos de Montíboli - Noticias</title>
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/icons/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/slider.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/jquery-ui.min.css">
 </head>
 <body>
   <!--==============================header=================================-->
@@ -32,6 +31,10 @@
     <div class="main-content">
         <div class="new-content">
         <h2 class="p4">Listado de noticias</h2>
+        <div id="filters">
+            <label for="starting_date">Desde</label><input type="text" class="datepicker" id="starting_date" name="starting_date" />
+            <label for="ending_date">Hasta</label><input type="text" class="datepicker" id="ending_date" name="ending_date" />
+        </div>
         <?php
             $this->lang->load('calendar');
             
@@ -52,10 +55,10 @@
                 echo '<span class="clr-1">'.$formated_date.'</span>';
                 
                 if($this->new_model->hasPictures($new->new_id)){
-                    echo '<a href="'.$new->new_external_link.'" class="link fright"><img src="/images/picture_icon.png" title="Ver fotos" /></a>';
+                    echo '<a href="'.$new->new_external_link.'" class="link fright"><img src="/images/icons/picture_icon.png" title="Ver fotos" /></a>';
                 }
                 if(!empty($new->new_external_link)){
-                    echo '<a href="'.$new->new_external_link.'" class="link fright"><img src="/images/more_icon.png" title="Seguir leyendo" /></a>';
+                    echo '<a href="'.$new->new_external_link.'" class="link fright"><img src="/images/icons/more_icon.png" title="Seguir leyendo" /></a>';
                 }
                                                 
                 echo '</div>';
@@ -71,8 +74,8 @@
     <footer>
         <hr>
         <div>
-            <a href="http://www.facebook.com/profile.php?id=100006764388620" target="_blank"><img class="social" src="/images/facebook_icon.png" alt="Facebook" /></a>
-            <a href="http://www.twitter.com/lavilamontiboli" target="_blank"><img class="social" src="/images/twitter_icon.png" alt="Twitter" /></a>
+            <a href="http://www.facebook.com/profile.php?id=100006764388620" target="_blank"><img class="social" src="/images/icons/facebook_icon.png" alt="Facebook" /></a>
+            <a href="http://www.twitter.com/lavilamontiboli" target="_blank"><img class="social" src="/images/icons/twitter_icon.png" alt="Twitter" /></a>
         </div>
         <div class="fright">
             <p>© 2014 Asociación Vecinos de Montíboli<br>
@@ -82,6 +85,10 @@
     </footer>
 </body>
     <script src="/js/jquery-1.7.min.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script>
+        $(".datepicker").datepicker();
+    </script>
     <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">

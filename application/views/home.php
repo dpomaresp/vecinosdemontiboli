@@ -3,7 +3,7 @@
 <head>
     <title>Asociación Vecinos de Montíboli - Home</title>
     <meta http-equiv="Content-type" content="text/html; charset=UTF-8"></meta>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="/images/icons/favicon.png" type="image/png" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
@@ -57,10 +57,10 @@
                 echo '<span class="clr-1">'.$formated_date.'</span>';
                 
                 if($this->new_model->hasPictures($new->new_id)){
-                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/picture_icon.png" title="Ver fotos" /></a>';
+                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/icons/picture_icon.png" title="Ver fotos" /></a>';
                 }
                 if(!empty($new->new_external_link)){
-                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/more_icon.png" title="Seguir leyendo" /></a>';
+                    echo '<a href="'.$new->new_external_link.'" class="link fright" target="_blank"><img src="/images/icons/more_icon.png" title="Seguir leyendo" /></a>';
                 }
                                                 
                 echo '</div>';
@@ -83,8 +83,8 @@
     <footer>
         <hr>
         <div>
-            <a href="http://www.facebook.com/profile.php?id=100006764388620" target="_blank"><img class="social" src="/images/facebook_icon.png" alt="Facebook" /></a>
-            <a href="http://www.twitter.com/lavilamontiboli" target="_blank"><img class="social" src="/images/twitter_icon.png" alt="Twitter" /></a>
+            <a href="http://www.facebook.com/profile.php?id=100006764388620" target="_blank"><img class="social" src="/images/icons/facebook_icon.png" alt="Facebook" /></a>
+            <a href="http://www.twitter.com/lavilamontiboli" target="_blank"><img class="social" src="/images/icons/twitter_icon.png" alt="Twitter" /></a>
         </div>
         <div class="fright">
         	<p>© 2014 Asociación Vecinos de Montíboli<br>
