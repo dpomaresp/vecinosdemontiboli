@@ -1,6 +1,8 @@
 <?php
 $lang['months'] = array('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre',
 	'Noviembre', 'Diciembre');
+$lang['months_short'] = array('Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct',
+	'Nov', 'Dic');
 $lang['cal_su']			= "Do";
 $lang['cal_mo']			= "Lu";
 $lang['cal_tu']			= "Ma";

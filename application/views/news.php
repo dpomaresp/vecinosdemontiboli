@@ -32,19 +32,22 @@
         <div class="new-content">
         <h2 class="p4">Listado de noticias</h2>
         <div id="filters">
-            <label for="starting_date">Desde</label><input type="text" class="datepicker" id="starting_date" name="starting_date" />
-            <label for="ending_date">Hasta</label><input type="text" class="datepicker" id="ending_date" name="ending_date" />
+            <form method="post" action="/news/page/">
+                <label for="starting_date">Desde</label><input type="text" class="datepicker" readonly id="starting_date" name="starting_date" value="<?php echo $from_date; ?>" />
+                <label for="ending_date">Hasta</label><input type="text" class="datepicker" readonly id="ending_date" name="ending_date" value="<?php echo $to_date; ?>" />
+                <input type="submit" text="Buscar" />
+            </form>
         </div>
         <?php
             $this->lang->load('calendar');
-            
+            $array = $this->lang->line('months');
+
             foreach($news as $new) {
 
                 $date = new DateTime($new->new_creation_date);
 
                 $day = $date->format('d');
                 $month = $date->format('n');
-                $array = $this->lang->line('months');
                 $year = $date->format('Y');
                 $formated_date = $day.' de '.$array[$month-1].', '.$year;
                 
@@ -67,7 +70,6 @@
                 echo '</div>';
                 echo '</div>';
             }
-            var_dump($this->pagination->create_links());
         ?>
         </div>
     </div>
@@ -86,8 +88,20 @@
 </body>
     <script src="/js/jquery-1.7.min.js"></script>
     <script src="/js/jquery-ui.min.js"></script>
-    <script>
-        $(".datepicker").datepicker();
+    <script type="text/javascript">
+        $(".datepicker").datepicker({
+            dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+            dayNamesMin: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+            dayNamesShort: ['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa'],
+            monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre',
+    'Noviembre', 'Diciembre'],
+            monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct',
+    'Nov', 'Dic'],
+            firstDay: 1,
+            nextText: 'Siguiente',
+            prevText: 'Anterior',
+            dateFormat: 'yy-mm-dd'
+        });
     </script>
     <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>

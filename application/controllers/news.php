@@ -13,8 +13,12 @@ class News extends CI_Controller {
 		$this->load->view('news', $data);
 	}
 
-	public function page($number){
+	public function page($number = 1){
 		global $config;
+
+		$from_date = $this->input->post('starting_date');
+		$to_date = $this->input->post('ending_date');
+
 		$this->load->library('pagination');
 		$this->load->model('new_model');
 
@@ -23,7 +27,18 @@ class News extends CI_Controller {
 		if($number > 0){
 			$offset = ($number-1)*$page_size;
 
-			$last_news = $this->new_model->getNews($offset, $page_size);
+			if(!empty($from_date) && !empty($to_date)){
+				$last_news = $this->new_model->getNews($offset, $page_size, $from_date, $to_date);
+
+				$data['from_date'] = $from_date;
+				$data['to_date'] = $to_date;
+			}
+			else{
+				$last_news = $this->new_model->getNews($offset, $page_size);
+				$data['from_date'] = NULL;
+				$data['to_date'] = NULL;
+			}
+			
 			$this->config->set_item('total_rows', $this->new_model->count());
 			$data['news'] = $last_news;
 

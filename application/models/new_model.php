@@ -6,16 +6,24 @@ class New_model extends CI_Model {
         parent::__construct();
     }
     
-    function getNews($offset = NULL, $limit = NULL)
+    function getNews($offset = NULL, $limit = NULL, $from = NULL, $to = NULL)
     {
         $query = '';
         
         if(!empty($limit) && $offset >= 0){
+            if(!empty($from) && !empty($to)){
+                $this->db->where('new_creation_date >=', $from);
+                $this->db->where('new_creation_date <=', $to);
+            }
             $this->db->limit($limit, $offset); 
             $this->db->order_by('new_creation_date', 'desc');
             $query = $this->db->get('News');    
         }
         else{
+            if(!empty($from) && !empty($to)){
+                $this->db->where('new_creation_date >=', $from);
+                $this->db->where('new_creation_date <=', $to);
+            }
             $this->db->order_by('new_creation_date', 'desc');
             $query = $this->db->get('News');
         }

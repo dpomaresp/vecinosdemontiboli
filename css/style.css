@@ -40,7 +40,7 @@ a:hover {text-decoration:none;}
     filter: alpha(opacity=60);
 }
 
-#img_header { position:relative; width:1024px; height:271; margin:0 auto; padding:0px 0px 0 0px; z-index:2; background:#000; overflow:hidden;}
+#img_header { position:relative; width:1024px; height:271; margin:0 auto; padding:0px 0px 0 0px; background:#000; overflow:hidden;}
 
 #gallery {
     height: auto;
