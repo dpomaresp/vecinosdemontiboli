@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
+
+    <meta name="description" content="Formulario, mapa y datos de contacto del presidente de la Asociación 
+    de Vecinos de Montíboli. Utiliza el formulario para realizar cualquier consulta o sugerencia." >
 </head>
 <body>
   <!--==============================header=================================-->

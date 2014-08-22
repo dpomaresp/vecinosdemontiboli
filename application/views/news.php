@@ -8,6 +8,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/grid_12.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/jquery-ui.min.css">
+
+    <meta name="description" content="Listado de las noticias relacionadas con la Asociación de Vecinos de Montíboli. Puedes encontrar
+    una corta descripción y si existe, un enlace a la fuente original." >
 </head>
 <body>
   <!--==============================header=================================-->
