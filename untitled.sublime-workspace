@@ -228,26 +228,26 @@
 	"buffers":
 	[
 		{
-			"file": "application/views/contact.php",
-			"settings":
-			{
-				"buffer_size": 5095,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "application/views/home.php",
 			"settings":
 			{
-				"buffer_size": 6272,
+				"buffer_size": 7842,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/news.php",
+			"file": "css/style2.css",
 			"settings":
 			{
-				"buffer_size": 5611,
+				"buffer_size": 9003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1232,
 				"line_ending": "Unix"
 			}
 		}
@@ -276,12 +276,13 @@
 	},
 	"file_history":
 	[
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/style.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/bootstrap.min.css",
+		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/news.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/home.php",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/controllers/news.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/models/new_model.php",
-		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/css/style.css",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/system/language/spanish/calendar_lang.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/home2.php",
 		"/Users/danielpomares/Documents/htdocs/vecinosdemontiboli.com/application/views/contact2.php",
@@ -402,8 +403,7 @@
 		"/Users/danielpomares/Documents/htdocs/momolo.com/es/marcas/default.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/includes/mail.php",
 		"/Users/danielpomares/Documents/htdocs/momolo.com/forms/contact.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/users/index.php",
-		"/Users/danielpomares/Documents/htdocs/momolo.com/en/buscador/default.php"
+		"/Users/danielpomares/Documents/htdocs/momolo.com/cms/application/views/users/index.php"
 	],
 	"find":
 	{
@@ -423,6 +423,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"new",
+			"hr",
+			"footer",
+			"header",
+			".navbar",
 			"Sabado",
 			"e",
 			"z-index",
@@ -545,12 +550,7 @@
 			"sock_mail",
 			"str_look_image",
 			"image",
-			"str_look_image",
-			"id=\"looks\"",
-			"str_look_image",
-			"$image",
-			"str_look_image",
-			"getMainMenu"
+			"str_look_image"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -616,23 +616,22 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/contact.php",
+					"file": "application/views/home.php",
 					"settings":
 					{
-						"buffer_size": 5095,
+						"buffer_size": 7842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								514,
-								718
+								3152,
+								3152
 							]
 						],
 						"settings":
@@ -642,63 +641,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1017.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "application/views/home.php",
+					"file": "css/style2.css",
 					"settings":
 					{
-						"buffer_size": 6272,
+						"buffer_size": 9003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								745
+								1110,
+								1040
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 47.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "application/views/news.php",
+					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 5611,
+						"buffer_size": 1232,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								807,
-								807
+								886,
+								886
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 32.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 556.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
